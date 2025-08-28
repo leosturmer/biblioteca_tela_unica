@@ -1,0 +1,80 @@
+# Tela inicial
+
+    Button {
+        margin-left: 2;
+
+    }
+
+    HorizontalGroup {
+        margin: 1;
+        margin-left: 2;
+        content-align: center middle;
+    }
+
+
+    Label {
+        text-align: center;
+        content-align: center middle;
+        width: 15%;
+        margin: 1;
+    }
+
+    Input, Select {
+        width: 64%;
+    }
+
+
+    TabbedContent Static {
+        margin-left: 2;
+
+    }
+
+    #titulo_inicial {
+        padding: 3;
+        margin-top: 2;
+        text-align: center;
+    }
+
+    #grupo_botoes_inicial {
+        align: center middle;
+    }
+
+    .botoes_inicial {
+        margin: 2;
+    }
+
+# Tela de livros
+
+    #sel_opcao 
+
+    #container_botao {
+        align-horizontal: right;   
+    }
+
+    .grupo_botoes_pesquisa {
+        margin-right: 2;
+        margin-bottom: 2;
+        align: center middle;
+    }
+
+
+    .stt_header_telas {
+        content-align: center middle;
+        margin-top: 1;
+        margin: 2;
+
+    }
+
+    #stt_situacao {
+        background: #E2E5C4;
+        color: black;
+        width: 64%;
+        height: auto;
+        content-align: center middle;
+        padding: 1;
+        margin: 2;
+    }
+
+    #bt_tela_inicial {
+        margin-right: 2;
+    }
