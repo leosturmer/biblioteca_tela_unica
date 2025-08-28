@@ -156,7 +156,16 @@ class TelaLivros(Screen):
                 opcao = self.query_one("#sel_opcao", Select).value
 
                 match opcao:
-                    case 
+                    case "cadastrar":
+                        cadastrar = self.acao_cadastro_livro()
+                        return cadastrar
+                    case "atualizar":
+                        self.acao_atualizar_livro()
+                    case "pesquisar":
+                        self.acao_pesquisar_livro()
+                    case "excluir":
+                        self.acao_excluir_livro()
+
 
 
     def on_button_pressed(self, event: Button.Pressed):
