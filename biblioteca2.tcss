@@ -1,0 +1,31 @@
+#st_header_livros {
+    text-align: center;
+
+}
+
+#stt_situacao {
+    background: #E2E5C4;
+    color: black;
+    text-align: center;
+    padding: 1;
+    margin: 2;
+}
+
+Select, Label, Input, Button, Static {
+    margin-left: 2;
+    margin-right: 2;
+    margin-top: 1;
+    margin-bottom: 1;
+}
+#sel_funcoes, #sel_opcao {
+    height: 5;
+}
+
+#grupo_botoes {
+    align: center middle;
+}
+
+#botao_sair {
+    align: center middle;
+
+}

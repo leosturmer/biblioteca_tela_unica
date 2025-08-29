@@ -2,23 +2,17 @@ from textual.app import App, SystemCommand
 from textual.widgets import Static,  Header, Footer
 from textual.binding import Binding
 
-from view2 import (
-    TelaInicial, TelaLeitores, TelaEmprestimos, TelaLivros)
+from view2 import (TelaGeral)
 
 
 class AppBiblioteca(App):
-    CSS_PATH = "biblioteca.tcss"
+    CSS_PATH = "biblioteca2.tcss"
 
-    SCREENS = {
-        "tela_inicial": TelaInicial,
-        "tela_livros": TelaLivros,
-        "tela_leitores": TelaLeitores,
-        "tela_emprestimos": TelaEmprestimos
-    }
+    SCREENS = {"tela_livros": TelaGeral}
 
     def on_mount(self):
-        # self.theme = "solarized-light"
-        self.push_screen("tela_inicial")
+        self.theme = "gruvbox"
+        self.push_screen("tela_livros")
 
 
 if __name__ == "__main__":
